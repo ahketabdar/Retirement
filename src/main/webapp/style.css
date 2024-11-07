@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body{
+    background-color:rgb(7, 236, 248);
+    margin: 0%;
+	padding: 0%;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.main-page  {
+	background-color: rgb(50, 173, 239);	
+}
+
+.sub-main  {
+	background-color: rgb(7, 236, 248);
+}
+
+
+
+.menubar ul li:hover ul {
+    display: block;
+}
+
+
+.menubar ul{
+    background-color: rgb(20, 131, 55);
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;   
+}
+
+.menubar ul li a{
+    list-style-type: none;
+    color: #fcfcfc;
+    text-decoration: none;
+    padding: 0.5rem;    
+}
+
+.menubar ul li ul {
+    display: none;
+    width: 100%;
+    left: 0; 
+    position: absolute;
+}
+
+.menubar ul li {
+    display: inline-block;
+    position: relative;
+}
